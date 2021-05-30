@@ -1,12 +1,14 @@
-import HTMLCSSPROJECTS from './htmlCss'
 import NAVLINKS from './navLinks'
 import REACTPROJECTS from './reactProjects'
-import skill from './skillTabs'
+import Skill from './skillTabs'
+import FEATUREPRODUCTDATA from './feactureProductdata'
+import LANGUAGE from './language'
 
 
 export {
-    HTMLCSSPROJECTS,
     NAVLINKS,
     REACTPROJECTS,
-    skill
+    Skill,
+    FEATUREPRODUCTDATA,
+    LANGUAGE
 }

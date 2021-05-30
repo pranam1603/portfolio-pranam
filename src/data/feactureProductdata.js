@@ -4,13 +4,13 @@ import { SiJavascript, SiJquery } from "react-icons/si";
 
 export default [
     {
-        id: 22,
-        text: 'Menu',
-        url: 'https://menu-react-5036ef.netlify.app/',
-        code: 'https://github.com/pranam1603/menu-react',
+        id: 16,
+        text: 'Hacker News',
+        url: 'https://hackernews-wescoff-cc1ccd.netlify.app/',
+        code: 'https://github.com/pranam1603/hacker-news',
         category: 'react',
-        type: 'basic project',
-        image: 'https://react-projects.netlify.app/static/df1b6184c0b85392bdd1a4a5a6f6e810/6846f/ScreenShot2020-10-01at12.36.21PM.webp',
+        type: 'largeScale project',
+        image: 'https://xp.io/storage/BfCiJJt.png',
         language: [
             {
                 icon: <FaHtml5 />,

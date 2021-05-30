@@ -21,7 +21,7 @@ const Navbar = () => {
             <nav>
                 <div className="nav-center">
                     <div className="nav-header">
-                        Company
+                        <a href="/" rel="noopener noreferrer"> <img src="https://see.fontimg.com/api/renderfont4/4BEVW/eyJyIjoiZnMiLCJoIjo4MSwidyI6MTI1MCwiZnMiOjY1LCJmZ2MiOiIjMDAwMDAwIiwiYmdjIjoiI0ZGRkZGRiIsInQiOjF9/UHJhbmFtIGphaW4/blackpine.png" alt="logo" /></a>
                         <button className="nav-toggle" onClick={() => setShowLinks(!showLinks)}>
                             <FaBars />
                         </button>
@@ -33,7 +33,7 @@ const Navbar = () => {
                                 const { id, url, text } = link
                                 return (
                                     <li key={id}>
-                                        <a href={url}>{text}</a>
+                                        <a href={url} rel="noopener noreferrer">{text}</a>
                                     </li>
                                 )
                             })}
@@ -45,7 +45,7 @@ const Navbar = () => {
                             const { id, url, icon } = icons
                             return (
                                 <li key={id}>
-                                    <a href={url}>{icon}</a>
+                                    <a href={url} rel="noopener noreferrer">{icon}</a>
                                 </li>
                             )
                         })}

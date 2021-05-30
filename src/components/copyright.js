@@ -10,12 +10,12 @@ const copyright = () => {
                     {social.map(item => {
                         const { id, url, icon } = item
                         return (
-                            <a key={id} href={url}>{icon}</a>
+                            <a key={id} href={url} rel="noopener noreferrer">{icon}</a>
                         )
                     })}
                 </div>
                 <p>&copy; {new Date().getFullYear()} <span>PRANAM.</span> ALL RIGHTS RESERVED</p>
-                <p className="heart-para">Built with <span className="heart">&#10084;</span></p>
+                <p className="heart-para">Built with <span className="heart">&#10084;</span> by Pranam</p>
             </section>
         </>
     )

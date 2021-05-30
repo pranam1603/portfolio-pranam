@@ -49,7 +49,7 @@ export const social = [
     },
     {
         id: 4,
-        url: 'https://www.instagram.com/pranam_1603/',
+        url: 'https://www.reddit.com/user/Pranamj',
         icon: <FaRedditSquare />,
     },
     {
@@ -58,13 +58,8 @@ export const social = [
         icon: <FaInstagramSquare />,
     },
     {
-        id: 6,
-        url: 'https://www.instagram.com/pranam_1603/',
-        icon: <SiNetlify />,
-    },
-    {
         id: 7,
-        url: 'https://www.instagram.com/pranam_1603/',
+        url: "mailTo:jainpranam02@gmail.com",
         icon: <MdMail />,
     },
 ]

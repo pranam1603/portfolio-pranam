@@ -2,8 +2,9 @@ import HOME from './home'
 import ABOUT from './about'
 import PROJECTS from './projects'
 import BLOG from './blog'
+import BLOG1 from './blog1'
+import BLOG2 from './blog2'
 import CONTACT from './contact'
-import VSEXTENSION from './vsExtension'
 import ERROR from './error'
 
 export {
@@ -12,6 +13,7 @@ export {
     PROJECTS,
     BLOG,
     CONTACT,
-    VSEXTENSION,
-    ERROR
+    ERROR,
+    BLOG1,
+    BLOG2
 }

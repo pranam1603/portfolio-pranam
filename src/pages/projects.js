@@ -1,9 +1,11 @@
 import React, { useState } from 'react'
 import { useProjectContext } from '../context/context'
-import Project from '../components/project'
-import Categories from '../components/categories'
 import reaProjects from '../data/reactProjects';
-import Copyright from '../components/copyright'
+import {
+    Copyright,
+    Project,
+    Categories
+} from '../components'
 
 const allCategories = ['all', ...new Set(reaProjects.map((item) => item.category))];
 

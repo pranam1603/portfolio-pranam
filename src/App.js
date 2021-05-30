@@ -11,8 +11,13 @@ import {
   PROJECTS,
   BLOG,
   CONTACT,
-  ERROR
+  ERROR,
+  BLOG1,
+  BLOG2
 } from './pages'
+// import Blog1 from './pages/blog1';
+
+// import { from } from 'webpack-sources/lib/CompatSource';
 
 function App() {
   return (
@@ -31,8 +36,14 @@ function App() {
         <Route path='/projects' >
           <PROJECTS />
         </Route>
-        <Route path='/blog' >
+        <Route path='/blog' exact>
           <BLOG />
+        </Route>
+        <Route path='/blog/1' >
+          <BLOG1 />
+        </Route>
+        <Route path='/blog/2' >
+          <BLOG2 />
         </Route>
         <Route path='*' >
           <ERROR />

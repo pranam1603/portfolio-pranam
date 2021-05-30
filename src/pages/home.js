@@ -2,13 +2,15 @@ import React from 'react'
 import Image from '../Images/istockphoto-1160620218-612x612.jpg'
 import { FaCode } from 'react-icons/fa'
 import { GiCutDiamond } from "react-icons/gi";
-import Tabs from '../components/tabs';
-import About from '../components/about';
-import Copyright from '../components/copyright'
-import FeaturedProducts from '../components/featuredProducts';
-import Mailbox from '../components/mailbox';
-import Tools from '../components/tools'
-import Bloghome from '../components/bloghome';
+import {
+    Tabs,
+    About,
+    Copyright,
+    FeaturedProducts,
+    Mailbox,
+    Tools,
+    Bloghome
+} from '../components'
 
 
 const home = () => {
@@ -21,7 +23,7 @@ const home = () => {
                 <div className="skill-cont">
                     <article id="article">
                         <h2><FaCode /></h2>
-                        <h4>Web Developer</h4>
+                        <h4>Front-End Developer</h4>
                         <div className="underline"></div>
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, sequi.
@@ -41,7 +43,7 @@ const home = () => {
                 <div className="skill-cont">
                     <article id="article">
                         <h2><FaCode /></h2>
-                        <h4>Web Developer</h4>
+                        <h4>Back-End Developer</h4>
                         <div className="underline"></div>
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, sequi.

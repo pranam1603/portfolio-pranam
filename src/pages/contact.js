@@ -6,13 +6,13 @@ import { IoMdMail } from "react-icons/io";
 const contact = () => {
     return (
         <>
-            <div style={{ backgroundColor: '#fff' }}>
+            <div style={{ backgroundColor: '#caffcc' }}>
                 <h1 id="form-h1">Contact US</h1>
                 <div id="underline"></div>
-                <div className="contact-section" style={{ backgroundColor: '#fff' }}>
+                <div className="contact-section" style={{ backgroundColor: '#caffcc' }}>
                     <article className="contact">
                         <div className="contact-info">
-                            <h2><span><FaLocationArrow /></span>aDDRESS</h2>
+                            <h2><span><FaLocationArrow /></span>ADDRESS</h2>
                             <p id="h4">nehru nagar police station 462003 Bhopal </p>
                         </div>
                         <div className="contact-info">

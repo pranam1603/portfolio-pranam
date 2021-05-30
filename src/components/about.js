@@ -1,5 +1,5 @@
 import React from 'react'
-import aboutImg from '../Images/about-bcg.jpeg'
+import aboutImg from '../Images/demo6.jpg'
 
 const about = () => {
     return (
@@ -9,12 +9,12 @@ const about = () => {
             </article>
             <article className="about-text">
                 <div>
-                    <h3>about our</h3>
-                    <h2>Pranam</h2>
+                    <h3>About Me</h3>
+                    <h2>PRANAM JAIN</h2>
                 </div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus numquam rem eos vel consequuntur obcaecati?</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus numquam rem eos vel consequuntur obcaecati?</p>
-                <a href="/about" class="main-btn ">learn more</a>
+                <p>Hello My name is Pranam Jain, and I'm a bhopal-based freelancer. I am also worked in some companies . Currentky i'm working in a Turkey based Startup <i>MyDosTech</i>.</p>
+                <p>I have a diverse set of skills, ranging from design, to HTML+CSS+Javascript +React. I also use Node.js and MongoDb in backend.</p>
+                <a href="/about" class="main-btn " rel="noopener noreferrer">Know more</a>
             </article>
         </div>
     )

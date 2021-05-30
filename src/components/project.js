@@ -15,7 +15,7 @@ const Project = ({ reactProject }) => {
                             <img src={image ? image : error} alt="projectPicture" />
                         </div>
                         <div className="icon-middle">
-                            <a href={url} target="_blank"><FaPaperPlane /></a>
+                            <a href={url} target="_blank" rel="noopener noreferrer"><FaPaperPlane /></a>
                         </div>
                         <div className="card-body">
                             <h3>{text}</h3>
@@ -29,8 +29,8 @@ const Project = ({ reactProject }) => {
                             </ul>
                         </div>
                         <div className="card-footer">
-                            <span><a className="git" href="https://github.com/pranam1603" target="_blank"><FaGithubSquare /></a><a target="_blank" href="https://github.com/pranam1603" style={{ marginLeft: '10px' }} className="git"><SiNetlify /></a></span>
-                            <span><a href={code} target="_blank">Source Code</a></span>
+                            <span><a className="git" href="https://github.com/pranam1603" target="_blank" rel="noopener noreferrer"><FaGithubSquare /></a><a target="_blank" href="https://github.com/pranam1603" style={{ marginLeft: '10px' }} className="git"><SiNetlify /></a></span>
+                            <span><a href={code} target="_blank" rel="noopener noreferrer">Source Code</a></span>
                         </div>
                     </article>
                 )
