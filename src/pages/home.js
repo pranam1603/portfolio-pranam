@@ -13,7 +13,6 @@ import {
     ScrollTop
 } from '../components'
 
-
 const home = () => {
 
     return (
