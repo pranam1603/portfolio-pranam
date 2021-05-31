@@ -24,7 +24,7 @@ const Wrapper = styled.main`
   background: #caffcc;
   display: flex;
   width: 100vw;
-  height: 93vh;
+  height: 100vh;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -34,6 +34,17 @@ const Wrapper = styled.main`
   h3 {
     text-transform: none;
     margin-bottom: 2rem;
+  }
+
+  @media (max-width:600px){
+    h1{
+      font-size:7rem
+    }
+    h3{
+      letter-spacing: 0;
+    }
+
+    overflow:hidden;
   }
 `
 

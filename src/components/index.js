@@ -7,6 +7,7 @@ import Tools from './tools'
 import Bloghome from './bloghome';
 import Project from './project';
 import Categories from './categories';
+import ScrollTop from './scrollTop';
 
 export {
     Tabs,
@@ -17,5 +18,6 @@ export {
     Tools,
     Bloghome,
     Project,
-    Categories
+    Categories,
+    ScrollTop
 }

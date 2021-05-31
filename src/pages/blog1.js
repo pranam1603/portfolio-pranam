@@ -2,6 +2,9 @@ import React from 'react'
 import { FaQuoteLeft } from "react-icons/fa";
 import BlogFoteer from '../components/blogFoteer';
 import Copyright from '../components/copyright'
+import {
+    ScrollTop
+} from "../components"
 
 const Blog1 = () => {
     return (
@@ -61,6 +64,7 @@ const Blog1 = () => {
                     <BlogFoteer />
 
                 </main>
+                <ScrollTop />
             </div>
             <div style={{ backgroundColor: '#3a3e3b' }}>
                 <Copyright />

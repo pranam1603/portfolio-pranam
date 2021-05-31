@@ -4,7 +4,8 @@ import reaProjects from '../data/reactProjects';
 import {
     Copyright,
     Project,
-    Categories
+    Categories,
+    ScrollTop
 } from '../components'
 
 const allCategories = ['all', ...new Set(reaProjects.map((item) => item.category))];
@@ -24,7 +25,7 @@ const Projects = () => {
     }
 
     return (
-        <div className='color'>
+        <div className='color' id="top">
             <div className="project-section" id="project-container">
                 <div className="categories">
                 </div>
@@ -34,6 +35,7 @@ const Projects = () => {
             <section style={{ backgroundColor: '#3a3e3b' }}>
                 <Copyright />
             </section>
+            <ScrollTop />
         </div>
     )
 }

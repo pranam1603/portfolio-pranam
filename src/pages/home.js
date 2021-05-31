@@ -9,11 +9,13 @@ import {
     FeaturedProducts,
     Mailbox,
     Tools,
-    Bloghome
+    Bloghome,
+    ScrollTop
 } from '../components'
 
 
 const home = () => {
+
     return (
         <>
             <div id="hero">
@@ -72,6 +74,7 @@ const home = () => {
             <section style={{ backgroundColor: '#3a3e3b' }}>
                 <Copyright />
             </section>
+            <ScrollTop />
         </>
     )
 }

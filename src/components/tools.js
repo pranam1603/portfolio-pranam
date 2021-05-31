@@ -15,7 +15,7 @@ const tools = () => {
                 <div className="vsCode tools-div">
                     <h3><SiVisualstudiocode /></h3>
                     <h4><a href='https://code.visualstudio.com/' rel="noopener noreferrer" target='_blank'>Visual Studio Code</a></h4>
-                    <p>I'm only using this code editor and I'm <br />completely in love! See the next resource for my<br /> setup.</p>
+                    <p>I'm only using this code editor and I'm <br />completely in love with this! See the next resource for my<br /> setup.</p>
                 </div>
                 <div className="vsCodeExt tools-div">
                     <h3><VscExtensions /></h3>

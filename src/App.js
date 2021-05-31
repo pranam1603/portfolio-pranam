@@ -15,9 +15,6 @@ import {
   BLOG1,
   BLOG2
 } from './pages'
-// import Blog1 from './pages/blog1';
-
-// import { from } from 'webpack-sources/lib/CompatSource';
 
 function App() {
   return (

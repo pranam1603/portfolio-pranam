@@ -13,11 +13,11 @@ const contact = () => {
                     <article className="contact">
                         <div className="contact-info">
                             <h2><span><FaLocationArrow /></span>ADDRESS</h2>
-                            <p id="h4">nehru nagar police station 462003 Bhopal </p>
+                            <p id="h4">Nehru Nagar Police Station 462003 Bhopal, Madhya Pradesh </p>
                         </div>
                         <div className="contact-info">
                             <h2><span><IoMdMail /></span>EMAIL</h2>
-                            <p id="h4">pranamjain02@gmail.com</p>
+                            <p id="h4">Pranamjain02@gmail.com</p>
                         </div>
                         <div className="contact-info">
                             <h2><span><FaPhone /></span>PHONE</h2>

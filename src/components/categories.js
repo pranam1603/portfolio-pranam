@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Categories = ({ category, setCategory, filterProject }) => {
+const Categories = ({ category, filterProject }) => {
     const [activeBtn, setActiveBtn] = React.useState(0)
 
     const handleClick = (category, index) => {

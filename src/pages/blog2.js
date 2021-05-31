@@ -1,8 +1,11 @@
 import React from 'react'
-import { FaQuoteLeft, FaInstagram, FaTwitterSquare, FaRedditAlien, } from "react-icons/fa";
+import { FaQuoteLeft, } from "react-icons/fa";
 import Copyright from '../components/copyright'
 import BlogFoteer from '../components/blogFoteer';
 import image from '../Images/Screenshot_20210530-182809.jpg'
+import {
+    ScrollTop
+} from "../components"
 
 const Blog2 = () => {
     return (
@@ -65,6 +68,7 @@ const Blog2 = () => {
 
                 </main>
             </div>
+            <ScrollTop />
             <div style={{ backgroundColor: '#3a3e3b' }}>
                 <Copyright />
             </div>
