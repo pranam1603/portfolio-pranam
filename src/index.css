@@ -160,6 +160,7 @@ Variables
 
   html {
     scroll-behavior: smooth;
+    width: 100%;
   }
 
   #scrollTop{
@@ -711,6 +712,10 @@ Variables
       margin-bottom: 0.5rem;
       height: 40px;
     }
+    .job-desc p {
+      letter-spacing: 1px;
+      word-spacing: 4px;
+    }
     .job-btn:last-child{
       margin-bottom: 40px;
     }
@@ -882,7 +887,7 @@ margin: -3px;
 
 @media (max-width:700px) {
   .copyright-section p{
-    letter-spacing: 4px;
+    letter-spacing: 3px;
   }
 }
 
@@ -992,7 +997,7 @@ word-spacing: 7px;
   .product .productImage{
     text-align: center;
     margin: 0 auto;
-    width: 350px;
+    width: 100%;
     height: 300px;
     border-radius:10px ;
     display: block;
@@ -1118,7 +1123,7 @@ word-spacing: 7px;
 }
 
 .mailUs div p span{
-  font-size: 40px;
+  font-size: 30px;
   color:#000;
   font-weight: bolder;
 }
@@ -1691,6 +1696,8 @@ border-bottom: 2px solid #698f3f;
 }
 .tools{
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .tools div{
@@ -1718,7 +1725,7 @@ border-bottom: 2px solid #698f3f;
 }
 
 .tools .tools-div{
-margin-left: 50px;
+  margin-left: 50px;
 }
 
 @media (max-width: 1100px) {
@@ -1727,13 +1734,23 @@ margin-left: 50px;
   }
 
   .development-tools{
-    padding: 70px 60px;
+    padding: 70px 50px;
   }
+
   .tools .tools-div{
-    margin-left: 00px;
+    width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-right: 0px;
+    margin-left: 0px;
     }
+
+    .development-tools h3 {
+      font-size: 30px;
+    }  
   .tools div h3{
-margin-top: 80px !important;
+    margin-top: 80px !important;
+    /* font-size: 30px; */
   }
 
   .tools div{
