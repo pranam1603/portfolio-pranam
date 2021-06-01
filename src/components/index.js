@@ -8,8 +8,15 @@ import Bloghome from './bloghome';
 import Project from './project';
 import Categories from './categories';
 import ScrollTop from './scrollTop';
+import Hero from './hero';
+import Skills from './skills';
+import Footer from './footer';
+
+
 
 export {
+    Hero,
+    Skills,
     Tabs,
     About,
     Copyright,
@@ -19,5 +26,6 @@ export {
     Bloghome,
     Project,
     Categories,
-    ScrollTop
+    ScrollTop,
+    Footer
 }

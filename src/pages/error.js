@@ -1,8 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Link } from 'react-router-dom'
-import Copyright from '../components/copyright'
 import { GiRobotGolem } from "react-icons/gi";
+
 const ErrorPage = () => {
   return <>
     <Wrapper className="page-100">
@@ -14,9 +14,6 @@ const ErrorPage = () => {
         </Link>
       </section>
     </Wrapper>
-    <main style={{ backgroundColor: '#3a3e3b' }}>
-      <Copyright />
-    </main>
   </>
 }
 

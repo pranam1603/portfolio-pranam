@@ -6,84 +6,25 @@ import { Link } from 'react-router-dom'
 const Navbar = () => {
     // const [checked, setChecked] = useState(false)
 
-    return (<div class="navigation">
-        <input type="checkbox" class="navigation__checkbox" id="navi-toggle" />
+    return (<div className="navigation">
+        <input type="checkbox" className="navigation__checkbox" id="navi-toggle" />
 
-        <label for="navi-toggle" class="navigation__button">
+        <label htmlFor="navi-toggle" className="navigation__button">
             <FaBars />
         </label>
 
-        <div class="navigation__background">&nbsp;</div>
+        <div className="navigation__background">&nbsp;</div>
 
-        <nav class="navigation__nav">
-            <ul class="navigation__list">
+        <nav className="navigation__nav">
+            <ul className="navigation__list">
                 {links.map(link => {
                     return (
-                        <li class="navigation__item" key={link.id}><Link class="navigation__link" to={link.url}><span>0{link.id}</span>{link.text}</Link></li>
+                        <li className="navigation__item" key={link.id}><Link className="navigation__link" to={link.url}><span>0{link.id}</span>{link.text}</Link></li>
                     )
                 })}
             </ul>
-            <ul>
-                <li>add</li>
-                <li>add</li>
-                <li>add</li>
-                <li>add</li>
-            </ul>
         </nav>
     </div>)
-
-
-    // const [showLinks, setShowLinks] = useState(false);
-    // const refLinksContainer = useRef(null)
-    // const linksContainer = useRef(null)
-
-    // useEffect(() => {
-    //     const linksHeight = linksContainer.current.getBoundingClientRect().height
-    //     if (showLinks) {
-    //         refLinksContainer.current.style.height = `${linksHeight}px`
-    //     } else {
-    //         refLinksContainer.current.style.height = `0px`
-    //     }
-    // })
-
-    // return (
-    //     <>
-    //         <nav>
-    //             <div className="nav-center">
-    //                 <div className="nav-header">
-    //                     <a href="/" rel="noopener noreferrer"> <img src="https://see.fontimg.com/api/renderfont4/4BEVW/eyJyIjoiZnMiLCJoIjo4MSwidyI6MTI1MCwiZnMiOjY1LCJmZ2MiOiIjMDAwMDAwIiwiYmdjIjoiI0ZGRkZGRiIsInQiOjF9/UHJhbmFtIGphaW4/blackpine.png" alt="logo" /></a>
-    //                     <button className="nav-toggle" onClick={() => setShowLinks(!showLinks)}>
-    //                         <FaBars />
-    //                     </button>
-    //                 </div>
-
-    //                 <div className={showLinks ? 'links-container show-container' : 'links-container'} ref={refLinksContainer}>
-    //                     <ul className="links" ref={linksContainer}>
-    //                         {links.map((link) => {
-    //                             const { id, url, text } = link
-    //                             return (
-    //                                 <li key={id}>
-    //                                     <a href={url} rel="noopener noreferrer">{text}</a>
-    //                                 </li>
-    //                             )
-    //                         })}
-    //                     </ul>
-    //                 </div>
-
-    //                 <ul className="social-icons">
-    //                     {social.map((icons) => {
-    //                         const { id, url, icon } = icons
-    //                         return (
-    //                             <li key={id}>
-    //                                 <a href={url} rel="noopener noreferrer">{icon}</a>
-    //                             </li>
-    //                         )
-    //                     })}
-    //                 </ul>
-    //             </div>
-    //         </nav>
-    //     </>
-    // )
 }
 
 export default Navbar

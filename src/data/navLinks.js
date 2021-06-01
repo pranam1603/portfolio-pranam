@@ -1,6 +1,5 @@
 import React from 'react'
 import { FaInstagramSquare, FaGithubSquare, FaLinkedin, FaTwitterSquare, FaRedditSquare, } from 'react-icons/fa'
-import { SiNetlify } from "react-icons/si";
 import { MdMail } from "react-icons/md";
 
 export const links = [

@@ -1,5 +1,4 @@
 import React from 'react'
-import Copyright from '../components/copyright'
 import { FaLocationArrow, FaPhone } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
 
@@ -35,9 +34,6 @@ const contact = () => {
                     </article>
                 </div>
             </div>
-            <section style={{ backgroundColor: '#3a3e3b' }}>
-                <Copyright />
-            </section>
         </>
     )
 }

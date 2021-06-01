@@ -1,5 +1,4 @@
 import React from 'react'
-import Copyright from '../components/copyright'
 import aboutIMage from '../Images/demo9.jpg'
 import { FaInstagramSquare, FaLinkedin, FaTwitterSquare, FaRedditSquare, } from 'react-icons/fa'
 import { FaReact, FaAws, FaHtml5, FaSass, FaCss3Alt, FaBootstrap, FaGithub, FaNode } from "react-icons/fa";
@@ -9,7 +8,6 @@ import { AiFillApi } from "react-icons/ai";
 const About = () => {
     return (
         <>
-
             <div className="about-logo">
                 <img src="https://see.fontimg.com/api/renderfont4/4BEVW/eyJyIjoiZnMiLCJoIjo4MSwidyI6MTI1MCwiZnMiOjY1LCJmZ2MiOiIjMDAwMDAwIiwiYmdjIjoiI0ZGRkZGRiIsInQiOjF9/UHJhbmFtIGphaW4/blackpine.png" alt="logo" />
             </div>
@@ -76,10 +74,6 @@ const About = () => {
                         <img src="https://xp.io/storage/DjA2V3j.png" alt="jkfnf" />
                     </div>
                 </div>
-            </div>
-
-            <div style={{ backgroundColor: '#3a3e3b' }} >
-                <Copyright />
             </div>
         </>
     )

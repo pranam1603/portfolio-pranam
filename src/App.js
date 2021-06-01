@@ -13,8 +13,11 @@ import {
   CONTACT,
   ERROR,
   BLOG1,
-  BLOG2
+  BLOG2,
 } from './pages'
+import {
+  Footer
+} from './components'
 
 function App() {
   return (
@@ -46,6 +49,7 @@ function App() {
           <ERROR />
         </Route>
       </Switch>
+      <Footer />
     </Router>
   );
 }

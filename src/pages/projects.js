@@ -2,10 +2,8 @@ import React, { useState } from 'react'
 import { useProjectContext } from '../context/context'
 import reaProjects from '../data/reactProjects';
 import {
-    Copyright,
     Project,
     Categories,
-    ScrollTop
 } from '../components'
 
 const allCategories = ['all', ...new Set(reaProjects.map((item) => item.category))];
@@ -32,10 +30,6 @@ const Projects = () => {
                 <Categories filterProject={filterProject} category={category} setCategory={setCategory} />
                 <Project reactProject={reactProject} />
             </div>
-            <section style={{ backgroundColor: '#3a3e3b' }}>
-                <Copyright />
-            </section>
-            <ScrollTop />
         </div>
     )
 }

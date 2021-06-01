@@ -4,7 +4,7 @@ import { IoIosArrowUp } from "react-icons/io";
 const ScrollTop = () => {
     const handleClick = () => {
         window.scroll({
-            top: 0, // could be negative value
+            top: 0,
             left: 0,
             behavior: 'smooth'
         });

@@ -5,13 +5,13 @@ const HomeProjects = ({ item }) => {
     return (
         <div className="product">
             <div className="productHeader">
-                <a href={url} target="_blank"><img className="productImage" src={image} rel="noopener noreferrer" /></a>
+                <a href={url} target="_blank" rel="noopener noreferrer" ><img className="productImage" src={image} alt="productMAge" /></a>
             </div>
             <h3><a style={{ color: '#fff' }} href={url} rel="noopener noreferrer" target="_blank">{text}</a></h3>
             {
-                language.map(lang => {
+                language.map((lang, index) => {
                     return (
-                        <span key={lang.id}>{lang.icon}</span>
+                        <span key={index}>{lang.icon}</span>
                     )
                 })
             }

@@ -8,7 +8,7 @@ const Project = ({ reactProject }) => {
     return (
         <div className="project">
             {reactProject.map(project => {
-                const { id, text, url, code, category, type, image, language } = project
+                const { id, text, url, code, type, image, language } = project
                 return (
                     <article className="card" key={id}>
                         <div className="card-header">
@@ -29,7 +29,7 @@ const Project = ({ reactProject }) => {
                             </ul>
                         </div>
                         <div className="card-footer">
-                            <span><a className="git" href="https://github.com/pranam1603" target="_blank" rel="noopener noreferrer"><FaGithubSquare /></a><a target="_blank" href="https://github.com/pranam1603" style={{ marginLeft: '10px' }} className="git"><SiNetlify /></a></span>
+                            <span><a className="git" rel="noopener noreferrer" href="https://github.com/pranam1603" target="_blank"><FaGithubSquare /></a><a target="_blank" href="https://github.com/pranam1603" style={{ marginLeft: '10px' }} className="git"><SiNetlify /></a></span>
                             <span><a href={code} target="_blank" rel="noopener noreferrer">Source Code</a></span>
                         </div>
                     </article>

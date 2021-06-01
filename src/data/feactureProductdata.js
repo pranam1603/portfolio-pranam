@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaReact, FaHtml5, FaCss3Alt } from "react-icons/fa";
-import { SiJavascript, SiJquery } from "react-icons/si";
+import { SiJavascript } from "react-icons/si";
 
 export default [
     {
