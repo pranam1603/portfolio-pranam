@@ -353,9 +353,10 @@ Variables
   }
 }
 
-  .show-container {
-    height: 12.5rem;
-  }
+/* ------------------------- */
+/* hero */
+/* ------------------------- */
+
 
   #hero .hero-info{
         position: absolute;
