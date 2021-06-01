@@ -1,15 +1,16 @@
 import React, { useState, useRef, useEffect } from 'react'
 import { links, social } from '../data/navLinks'
 import { FaBars, FaTimes } from 'react-icons/fa'
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
-    const [checked, setChecked] = useState(false)
+    // const [checked, setChecked] = useState(false)
 
     return (<div class="navigation">
         <input type="checkbox" class="navigation__checkbox" id="navi-toggle" />
 
-        <label for="navi-toggle" onClick={() => setChecked(!checked)} class="navigation__button">
-            {checked ? <FaTimes /> : <FaBars />}
+        <label for="navi-toggle" class="navigation__button">
+            <FaBars />
         </label>
 
         <div class="navigation__background">&nbsp;</div>
@@ -18,7 +19,7 @@ const Navbar = () => {
             <ul class="navigation__list">
                 {links.map(link => {
                     return (
-                        <li class="navigation__item" key={link.id}><a class="navigation__link" href={link.url} rel="noopener noreferrer" ><span>0{link.id}</span>{link.text}</a></li>
+                        <li class="navigation__item" key={link.id}><Link class="navigation__link" to={link.url}><span>0{link.id}</span>{link.text}</Link></li>
                     )
                 })}
             </ul>

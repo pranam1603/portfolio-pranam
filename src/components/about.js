@@ -1,5 +1,6 @@
 import React from 'react'
 import aboutImg from '../Images/demo6.jpg'
+import { Link } from 'react-router-dom'
 
 const about = () => {
     return (
@@ -14,7 +15,7 @@ const about = () => {
                 </div>
                 <p>Hello My name is Pranam Jain, and I'm a bhopal-based freelancer. I am also worked in some companies . Currentky i'm working in a Turkey based Startup <i>MyDosTech</i>.</p>
                 <p>I have a diverse set of skills, ranging from design, to HTML+CSS+Javascript +React. I also use Node.js and MongoDb in backend.</p>
-                <a href="/about" class="main-btn " rel="noopener noreferrer">Know more</a>
+                <Link to="/about" class="main-btn ">Know more</Link>
             </article>
         </div>
     )

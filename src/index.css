@@ -871,6 +871,12 @@ margin: -3px;
   padding: 0 !important;
 }
 
+@media (max-width:700px) {
+  .copyright-section p{
+    letter-spacing: 4px;
+  }
+}
+
 /* ------------------ */
   /* featured-products */
 /* ------------------ */
