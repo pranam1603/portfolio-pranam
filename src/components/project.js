@@ -29,7 +29,7 @@ const Project = ({ reactProject }) => {
                             </ul>
                         </div>
                         <div className="card-footer">
-                            <span><a className="git" rel="noopener noreferrer" href="https://github.com/pranam1603" target="_blank"><FaGithubSquare /></a><a target="_blank" href="https://github.com/pranam1603" style={{ marginLeft: '10px' }} className="git"><SiNetlify /></a></span>
+                            <span><a className="git" rel="noopener noreferrer" href="https://github.com/pranam1603" target="_blank"><FaGithubSquare /></a><a target="_blank" href="https://app.netlify.com/user" style={{ marginLeft: '10px' }} className="git"><SiNetlify /></a></span>
                             <span><a href={code} target="_blank" rel="noopener noreferrer">Source Code</a></span>
                         </div>
                     </article>

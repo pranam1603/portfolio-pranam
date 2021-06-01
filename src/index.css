@@ -227,7 +227,7 @@ Variables
   width: 50px;
   border-radius:50%;
   position: fixed;
-  top: 40px;
+  top: 37px;
   right: 40px;
   background-image: radial-gradient(#7ed56f, #28b485);
   z-index: 1000;
@@ -273,7 +273,7 @@ Variables
   text-transform: uppercase;
   background-image: linear-gradient(120deg, transparent 0%, transparent 50%, #fff 50%);
   background-size: 250%;
-  transition: all .7s;
+  transition: all .5s;
 }
 
 .navigation__link:hover,
@@ -2218,6 +2218,7 @@ color: #474747;
 .blog-page{
   margin: 0 auto;
   width: 75%;
+  margin-bottom: 50px;
 }
 
 .blogPage-cont{

@@ -4,13 +4,13 @@ import { SiJavascript } from "react-icons/si";
 
 export default [
     {
-        id: 16,
-        text: 'Hacker News',
-        url: 'https://hackernews-wescoff-cc1ccd.netlify.app/',
-        code: 'https://github.com/pranam1603/hacker-news',
+        id: 23,
+        text: 'Github user Search',
+        url: 'https://react-gitsearch-user.netlify.app/login',
+        code: 'https://github.com/pranam1603/git-user-react',
         category: 'react',
         type: 'largeScale project',
-        image: 'https://xp.io/storage/BfCiJJt.png',
+        image: 'https://xp.io/storage/BfHVliO.png',
         language: [
             {
                 icon: <FaHtml5 />,
@@ -25,7 +25,9 @@ export default [
                 iconText: 'REACT'
             },
         ]
+
     },
+
     {
         id: 24,
         text: 'Comfy Ecommerce',
