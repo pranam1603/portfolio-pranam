@@ -428,7 +428,19 @@ Variables
     height: 100vh !important;
     pointer-events: initial; 
   }
- @media (max-width:600px) {
+ @media (max-width:800px) {
+
+  #hero{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.744) ,rgba(0, 0, 0, 0.744)), url(https://xp.io/storage/IOFBO4h.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
   #hero #tsparticles canvas{
     width: 100%;
     opacity: 0.2;
@@ -443,6 +455,7 @@ Variables
     color: #fff;
     letter-spacing: 3.5px;
   }
+
 
   #hero .hero-info .hero-ButtonContainer a{
     padding: 8px 13px;
@@ -461,8 +474,10 @@ Variables
   }
 
   #hero .hero-info #forTypewriter{
-    font-size: 20px;
-    width: 100%;
+    font-size: 15px;
+    width: 100vw;
+    margin-right: 0;
+    margin-left: 0;
     text-transform: none;
     margin-bottom: 45px;
   }
@@ -485,6 +500,7 @@ Variables
   .skills{
       display: flex;
       margin-top: 0px;
+      width: 100%;
   }
 
   .skills .skill-cont{
@@ -553,6 +569,7 @@ Variables
 @media (max-width:900px) {
     .skills{
         display: block;
+        width: 100%;
     }
 
     .skills .skill-cont{

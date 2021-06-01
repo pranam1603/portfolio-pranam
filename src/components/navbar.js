@@ -1,14 +1,18 @@
-import React, { useState, useRef, useEffect } from 'react'
+import React, { useState } from 'react'
 import { links } from '../data/navLinks'
 import { FaBars, FaTimes } from 'react-icons/fa'
-import { Link } from 'react-router-dom'
 
 const Navbar = () => {
+    const [checked, setChecked] = useState(false)
+
+    const handleClick = () => {
+        setChecked(!checked)
+    }
 
     return (<div className="navigation">
         <input type="checkbox" className="navigation__checkbox" id="navi-toggle" />
-        <label htmlFor="navi-toggle" className="navigation__button">
-            <FaBars />
+        <label htmlFor="navi-toggle" onClick={handleClick} className="navigation__button">
+            {checked ? < FaTimes /> : <FaBars />}
         </label>
 
         <div className="navigation__background">&nbsp;</div>

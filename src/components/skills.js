@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaCode } from 'react-icons/fa'
+import { FaCode, FaLaptopCode } from 'react-icons/fa'
 import { GiCutDiamond } from "react-icons/gi";
 
 const Skills = () => {
@@ -11,7 +11,8 @@ const Skills = () => {
                     <h4>Front-End Developer</h4>
                     <div className="underline"></div>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, sequi.
+                        I love Front-End Development. Usaually i like to spent my time in front-end. My favourite framework is React.
+
                     </p>
                 </article>
             </div>
@@ -21,17 +22,18 @@ const Skills = () => {
                     <h4>Web Design</h4>
                     <div className="underline"></div>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, sequi.
+                        I am a Web Designer, and i learn it with making projects and working with others which teach me many things.
                     </p>
                 </article>
             </div>
             <div className="skill-cont">
                 <article id="article">
-                    <h2><FaCode /></h2>
+                    <h2><FaLaptopCode /></h2>
                     <h4>Back-End Developer</h4>
                     <div className="underline"></div>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, sequi.
+                        I like to work on large scale projects. that's why i spent most of my time with Backend, and
+                        i love it.
                     </p>
                 </article>
             </div>
