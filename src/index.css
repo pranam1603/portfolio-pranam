@@ -1120,8 +1120,8 @@ word-spacing: 7px;
   display: inline-block;
 }
 .mailUs div p{
-  letter-spacing: 2px;
-  word-spacing: 5px;
+  letter-spacing: 0px;
+  word-spacing: 4px;
   font-size: 14px;
   display: flex;
   color: #000;

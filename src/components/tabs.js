@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import job from '../data/skillTabs'
 import { FaAngleDoubleRight } from "react-icons/fa";
-import { Link } from "react-router-dom";
+
 
 const Tabs = () => {
     const [jobs, setJobs] = useState(job)
@@ -41,11 +41,11 @@ const Tabs = () => {
                         })}
                     </article>
                 </div>
-                <Link to="/about">
+                <a href="/about">
                     <button type="button" className="btn">
                         more info
                     </button>
-                </Link>
+                </a>
             </section>
         </div>
     )

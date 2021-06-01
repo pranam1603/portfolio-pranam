@@ -1,7 +1,7 @@
 import React from 'react'
 import { SiMicroDotBlog } from "react-icons/si";
 import { FaUser, FaTags } from "react-icons/fa";
-import { Link } from "react-router-dom"
+
 const bloghome = () => {
     return (
         <section className="blog">
@@ -18,9 +18,9 @@ const bloghome = () => {
                         </div>
                         <div className="blogCard-body">
                             <h6 id="blog-heading">
-                                <Link style={{ color: '#000' }} to="/blog/1">
+                                <a style={{ color: '#000' }} href="/blog/1">
                                     Stock market as a career
-                                </Link>
+                                </a>
                             </h6>
                             <p className="card-admin">
                                 <span><FaUser /></span>
@@ -32,9 +32,9 @@ const bloghome = () => {
                                 Of India's 1.36 billion people, only about 3.7% invest in equities, compared with about 12.7% in China
                                 ......
                             </p>
-                            <Link to="/blog">
+                            <a href="/blog">
                                 <button className="cardBody-button">More Blogs</button>
-                            </Link>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -47,9 +47,9 @@ const bloghome = () => {
                     </div>
                     <div className="blogCard-body">
                         <h6 id="blog-heading">
-                            <Link style={{ color: '#000' }} to="/blog/2">
+                            <a style={{ color: '#000' }} href="/blog/2">
                                 How to find a great startup idea?
-                            </Link>
+                            </a>
                         </h6>
                         <p className="card-admin">
                             <span><FaUser /></span>
@@ -62,9 +62,9 @@ const bloghome = () => {
                             The main problem due to which many startups life is end is Lack of Experience and Weak management team
                             ......
                         </p>
-                        <Link to="/blog">
+                        <a href="/blog">
                             <button className="cardBody-button">More Blogs</button>
-                        </Link>
+                        </a>
                     </div>
                 </div>
             </div>

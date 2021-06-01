@@ -2,7 +2,7 @@ import React from 'react'
 import document from '../Images/RESUME.docx'
 import { BsArrowDown } from "react-icons/bs";
 
-const mailbox = () => {
+const Mailbox = () => {
     return (
         <>
             <section className="mailUs" style={{ backgroundColor: '#fff' }}>
@@ -24,4 +24,4 @@ const mailbox = () => {
     )
 }
 
-export default mailbox
+export default Mailbox
