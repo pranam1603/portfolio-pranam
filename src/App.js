@@ -24,25 +24,25 @@ function App() {
         <Route path='/' exact>
           <HOME />
         </Route>
-        <Route path='/about' >
+        <Route path='/about' exact>
           <ABOUT />
         </Route>
-        <Route path='/contact' >
+        <Route path='/contact' exact>
           <CONTACT />
         </Route>
-        <Route path='/projects' >
+        <Route path='/projects' exact>
           <PROJECTS />
         </Route>
         <Route path='/blog' exact>
           <BLOG />
         </Route>
-        <Route path='/blog/1' >
+        <Route path='/blog/1' exact>
           <BLOG1 />
         </Route>
-        <Route path='/blog/2' >
+        <Route path='/blog/2' exact>
           <BLOG2 />
         </Route>
-        <Route path='*' >
+        <Route path="*" >
           <ERROR />
         </Route>
       </Switch>
