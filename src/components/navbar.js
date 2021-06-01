@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react'
-import { links, social } from '../data/navLinks'
+import { links } from '../data/navLinks'
 import { FaBars, FaTimes } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
 
@@ -22,6 +22,12 @@ const Navbar = () => {
                         <li class="navigation__item" key={link.id}><Link class="navigation__link" to={link.url}><span>0{link.id}</span>{link.text}</Link></li>
                     )
                 })}
+            </ul>
+            <ul>
+                <li>add</li>
+                <li>add</li>
+                <li>add</li>
+                <li>add</li>
             </ul>
         </nav>
     </div>)
