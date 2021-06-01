@@ -752,7 +752,6 @@ Variables
   padding-bottom:00px ;
   padding-top:0px ;
   margin: 0;
-  /* background-color: #48753a; */
 }
 
 .about-text{
@@ -832,7 +831,6 @@ margin: -3px;
       width: 100%;
       padding: 0px;
       margin: 0;
-      /* background-color: #48753a; */
     }
 
     .about-img img{
@@ -1299,6 +1297,14 @@ border-bottom: 2px solid #698f3f;
     color: #698f3f;
     font-size: 50px;
   }
+  
+  #underline{
+    border-radius: 10px;
+    margin: 0 auto;
+    text-align: center;
+    border-bottom: 5px solid #426838;
+    width: 8vw;
+  }
 
   @media (max-width: 1000px) {
     .contact-section{
@@ -1331,10 +1337,20 @@ border-bottom: 2px solid #698f3f;
       margin-bottom: 0px;
     }
 
+    #form-h1{
+      padding-top: 40px;
+      text-align: center;
+      font-family: 'Pacifico', cursive;
+      letter-spacing: 14px;
+      color: #698f3f;
+      font-size: 40px;
+    }
+
     .contact-info p{
       text-align: center;
-      font-size: 1.17em;
+      font-size: 1em;
       margin: 0;
+
       padding-left: 20px;
       padding-right: 20px;
       letter-spacing: 3px;
@@ -1347,6 +1363,7 @@ border-bottom: 2px solid #698f3f;
     }
 
     .contact-info h2{
+      font-size: 25px;
       margin-top: 70px;
     }
 
@@ -1379,13 +1396,6 @@ border-bottom: 2px solid #698f3f;
       }  
   }
 
-  #underline{
-    border-radius: 10px;
-    margin: 0 auto;
-    text-align: center;
-    border-bottom: 5px solid #426838;
-    width: 8vw;
-  }
 
 /* ---------------- */
 /* about page */
@@ -1615,7 +1625,7 @@ border-bottom: 2px solid #698f3f;
 .about-section .about-header img{
   height: 100%;
   padding:20px;
-  /* border-radius: 50%; */
+  padding-right: 6px;
 }
   .about-footer{
     width: 90%;
