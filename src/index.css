@@ -144,6 +144,13 @@ Variables
     }
   }
   /*  global classes */
+
+  /* change copy & paste color and background */
+
+  *::selection{
+    color: #fff;
+    background-color: #55c57a;
+  }
   
   /* section */
   .section {
@@ -1009,7 +1016,7 @@ word-spacing: 7px;
   font-size: 22px;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
   .featured-products{
     display: block;
     margin: 0 auto;
@@ -1142,7 +1149,6 @@ word-spacing: 7px;
   font-size: 14px;
   display: flex;
   color: #000;
-  justify-content: start;
   align-items: center;
 
 }

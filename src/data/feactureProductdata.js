@@ -1,7 +1,7 @@
 import React from 'react'
 import { FaReact, FaHtml5, FaCss3Alt } from "react-icons/fa";
 import { SiJavascript } from "react-icons/si";
-
+// eslint-disable-next-line
 export default [
     {
         id: 23,

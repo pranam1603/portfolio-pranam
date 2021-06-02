@@ -4,6 +4,7 @@ import { FaAngleDoubleRight } from "react-icons/fa";
 
 
 const Tabs = () => {
+    /* eslint-disable no-unused-vars */
     const [jobs, setJobs] = useState(job)
     const [value, setValue] = useState(0)
 

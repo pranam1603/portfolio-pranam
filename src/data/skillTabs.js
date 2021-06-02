@@ -1,3 +1,4 @@
+// eslint-disable-next-line
 export default [
     {
         "id": "rec61x18GVY99hQq5",
