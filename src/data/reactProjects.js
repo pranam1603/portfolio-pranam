@@ -195,7 +195,6 @@ export default [
         ]
     },
 
-
     {
         id: 3,
         text: 'Reviews Project',
@@ -297,29 +296,7 @@ export default [
             },
         ]
     },
-    {
-        id: 7,
-        text: 'Navbar ',
-        url: 'https://navbar-engelbart-d9f3f1.netlify.app/',
-        code: 'https://github.com/pranam1603/navbar-react',
-        category: 'react',
-        type: 'basic project',
-        image: 'https://react-projects.netlify.app/static/40e63276dace993fa060406574ac6f8d/a247e/ScreenShot2020-10-01at4.05.43PM.webp',
-        language: [
-            {
-                icon: <FaHtml5 />,
-                iconText: 'HTML',
-            },
-            {
-                icon: <FaCss3Alt />,
-                iconText: 'CSS'
-            },
-            {
-                icon: <FaReact />,
-                iconText: 'REACT'
-            },
-        ]
-    },
+
     {
         id: 15,
         text: 'Movies Info',
@@ -343,6 +320,30 @@ export default [
             },
         ]
     },
+    {
+        id: 42,
+        text: 'Rotating Navbar',
+        url: 'https://pranam1603.github.io/rotatingNav/',
+        code: 'https://github.com/pranam1603/rotatingNav',
+        category: 'htmlCss',
+        type: 'Exclusive Project',
+        image: 'https://xp.io/storage/Kl3HAim.png',
+        language: [
+            {
+                icon: <FaHtml5 />,
+                iconText: 'HTML',
+            },
+            {
+                icon: <FaCss3Alt />,
+                iconText: 'CSS'
+            },
+            {
+                icon: <SiJavascript />,
+                iconText: 'JS'
+            },
+        ]
+    },
+
 
     {
         id: 16,
@@ -758,6 +759,29 @@ export default [
         category: 'react',
         type: 'basic project',
         image: 'https://react-projects.netlify.app/static/89b64e736050bfb366ef12d950cda163/2e842/ScreenShot2020-10-01at1.50.36PM.webp',
+        language: [
+            {
+                icon: <FaHtml5 />,
+                iconText: 'HTML',
+            },
+            {
+                icon: <FaCss3Alt />,
+                iconText: 'CSS'
+            },
+            {
+                icon: <FaReact />,
+                iconText: 'REACT'
+            },
+        ]
+    },
+    {
+        id: 7,
+        text: 'Navbar ',
+        url: 'https://navbar-engelbart-d9f3f1.netlify.app/',
+        code: 'https://github.com/pranam1603/navbar-react',
+        category: 'react',
+        type: 'basic project',
+        image: 'https://react-projects.netlify.app/static/40e63276dace993fa060406574ac6f8d/a247e/ScreenShot2020-10-01at4.05.43PM.webp',
         language: [
             {
                 icon: <FaHtml5 />,
