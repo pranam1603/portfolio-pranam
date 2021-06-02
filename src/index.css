@@ -475,7 +475,7 @@ Variables
 
   #hero .hero-info #forTypewriter{
     font-size: 15px;
-    width: 100vw;
+    width: 100%;
     margin-right: 0;
     margin-left: 0;
     text-transform: none;
@@ -1203,9 +1203,15 @@ word-spacing: 7px;
 /* contact  */
 /* ---------------- */
 
+#contact{
+  background-color: #caffcc;
+  padding-top: 20px;
+  padding-bottom: 30px; 
+}
+
 .contact-section{
 
-height: 75vh;
+height: 80vh;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -1328,7 +1334,12 @@ border-bottom: 2px solid #698f3f;
       height: 100%;
       display: block;
       }
-    
+      #contact{
+        background-color: #caffcc;
+        height: 100%;
+        padding-bottom: 30px; 
+      }
+      
     .contact, .contact-info{
       margin: 0;
       padding: 0;

@@ -11,7 +11,7 @@ const blog = () => {
                         <a href="blog/1"><img src='https://www.thebalance.com/thmb/nSshNovfSEiczCL1X59G3ZF24Wc=/2221x1350/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-595307834-594d67423df78cae81e0bce0.jpg' alt="blog" /></a>
                     </div>
                     <div className="blogPage-right">
-                        <h2><a htef="blog/1">Stock market as a career!</a></h2>
+                        <h2><a href="blog/1">Stock market as a career!</a></h2>
                         <p>Stock market is a place where a common man can enter and make decent source of income without any big investment or load. It requires knowledge,analytical skills and most importantly psychology...</p>
                         <span>Stock Market<span className="black">,</span> Educational</span>
                         <p>Author | Pranam Jain | 14 min read</p>
