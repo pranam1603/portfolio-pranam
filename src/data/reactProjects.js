@@ -512,11 +512,11 @@ export default [
     {
         id: 19,
         text: 'Cart',
-        url: 'https://cart-cart-ed990f.netlify.app/',
-        code: 'https://github.com/pranam1603/cart',
+        url: 'https://redux-cart-fd4cca.netlify.app/',
+        code: 'https://github.com/pranam1603/redux-cart',
         category: 'react',
         type: 'basic project',
-        image: 'https://react-projects.netlify.app/static/3e226cf9bb610b52b3d9daed83f8378a/39eb7/ScreenShot2020-10-03at1.03.09PM.webp',
+        image: 'https://xp.io/storage/MkGRBG4.png',
         language: [
             {
                 icon: <FaHtml5 />,

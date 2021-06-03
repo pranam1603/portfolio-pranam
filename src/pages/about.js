@@ -2,7 +2,7 @@ import React from 'react'
 import aboutIMage from '../Images/demo9.jpg'
 import { FaInstagramSquare, FaLinkedin, FaTwitterSquare, FaRedditSquare, } from 'react-icons/fa'
 import { FaReact, FaAws, FaHtml5, FaSass, FaCss3Alt, FaBootstrap, FaGithub, FaNode } from "react-icons/fa";
-import { SiJavascript, SiBulma, SiNetlify, SiJquery, SiMongodb } from "react-icons/si";
+import { SiJavascript, SiRedux, SiBulma, SiNetlify, SiJquery, SiMongodb } from "react-icons/si";
 import { AiFillApi } from "react-icons/ai";
 
 const About = () => {
@@ -62,6 +62,8 @@ const About = () => {
                         <li><span><FaSass /></span>SASS</li>
                         <li><span><SiBulma /></span>BULMA</li>
                         <li><span><FaAws /></span>AWS</li>
+                        <li><span><SiRedux /></span>REDUX</li>
+
                     </ul>
                 </div>
             </div>
