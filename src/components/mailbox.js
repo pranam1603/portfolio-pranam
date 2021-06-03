@@ -1,5 +1,5 @@
 import React from 'react'
-import document from '../Images/RESUME.docx'
+import document from '../Images/Resume.pdf'
 import { BsArrowDown } from "react-icons/bs";
 
 const Mailbox = () => {
