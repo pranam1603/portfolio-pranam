@@ -74,6 +74,7 @@ const About = () => {
                     <div className="aboutImage-cont">
                         <img src="https://olcademy.com/images/olcademy-beta.png" alt="jkfnf" />
                         <img src="https://xp.io/storage/DjA2V3j.png" alt="jkfnf" />
+                        <img src="https://xp.io/storage/29vuIXjW.png" alt="ffgg"/>
                     </div>
                 </div>
             </div>
