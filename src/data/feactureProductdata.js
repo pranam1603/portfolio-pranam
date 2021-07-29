@@ -3,29 +3,28 @@ import { FaReact, FaHtml5, FaCss3Alt } from "react-icons/fa";
 import { SiJavascript } from "react-icons/si";
 // eslint-disable-next-line
 export default [
-    {
-        id: 23,
-        text: 'Github user Search',
-        url: 'https://react-gitsearch-user.netlify.app/login',
-        code: 'https://github.com/pranam1603/git-user-react',
-        category: 'react',
-        type: 'largeScale project',
-        image: 'https://xp.io/storage/BfHVliO.png',
+      {
+        id: 100,
+        text: 'YelpCamp',
+        url: 'https://quiet-eyrie-98125.herokuapp.com/',
+        code: 'https://github.com/pranam1603/yelpCamp_code',
+        image: 'https://xp.io/storage/29uyuyuc.png',
+        category: 'node Mongo',
+        type: 'largeScale Project',
         language: [
             {
-                icon: <FaHtml5 />,
-                iconText: 'HTML',
+                icon: <FaNode />,
+                iconText: 'Node',
             },
             {
-                icon: <FaCss3Alt />,
-                iconText: 'CSS'
+                icon: <SiMongodb />,
+                iconText: 'Mongo'
             },
             {
-                icon: <FaReact />,
-                iconText: 'REACT'
+                icon: <FaBootstrap />,
+                iconText: 'Boots.'
             },
         ]
-
     },
 
     {
