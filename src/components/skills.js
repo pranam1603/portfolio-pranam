@@ -19,10 +19,10 @@ const Skills = () => {
             <div className="skill-cont">
                 <article id="article">
                     <h2><GiCutDiamond /></h2>
-                    <h4>Web Design</h4>
+                    <h4>MERN Developer</h4>
                     <div className="underline"></div>
                     <p>
-                        I am a Web Designer, and i learn it with making projects and working with others which teach me many things.
+                        I am a MERN Developer, and i learn it with making projects and working with others which teach me many things.
                     </p>
                 </article>
             </div>
