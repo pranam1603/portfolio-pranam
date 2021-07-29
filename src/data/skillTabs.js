@@ -38,7 +38,18 @@ export default [
     },
     {
         "id": "recIL6mJNfWObonls",
-        "order": 2,
+        "order": 4,
+        "title": "Web Developer",
+        "dates": "June 2021 - July 2021",
+        "duties": [
+            "My most recent internship is in Chai Sutta Bar In this intern i lead the team of 10+ Developers which increase my leadership skill.",
+            "This is a great experience for me and I learn lot of new things.",
+        ],
+        "company": "Chai Sutta Bar"
+    },
+    {
+        "id": "recIL6mJNfWObonls",
+        "order": 5,
         "title": "Cse Expert",
         "dates": "FEBUARY 2021 - Present",
         "duties": [
