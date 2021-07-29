@@ -3,6 +3,29 @@ import { FaReact, FaHtml5, FaCss3Alt } from "react-icons/fa";
 import { SiJavascript, SiJquery } from "react-icons/si";
 // eslint-disable-next-line
 export default [
+      {
+        id: 100,
+        text: 'YelpCamp',
+        url: 'https://quiet-eyrie-98125.herokuapp.com/',
+        code: 'https://github.com/pranam1603/yelpCamp_code',
+        image: 'https://xp.io/storage/29uyuyuc.png',
+        category: 'node Mongo',
+        type: 'largeScale Project',
+        language: [
+            {
+                icon: <FaNode />,
+                iconText: 'Node',
+            },
+            {
+                icon: <SiMongodb />,
+                iconText: 'Mongo'
+            },
+            {
+                icon: <FaBootstrap />,
+                iconText: 'Boots.'
+            },
+        ]
+    },
     {
         id: 37,
         text: 'Color Game',
