@@ -54,7 +54,7 @@ export default [
         "dates": "FEBUARY 2021 - Present",
         "duties": [
             "Now i am working as an Computer science Expert in Chegg India and helping many students in solving their questions.",
-            "This is a great experience for me and I learn lot of new things.",
+            "In this i solving many questions which help me to build my computer Science concept strong.",
         ],
         "company": "CHEGG"
     },
