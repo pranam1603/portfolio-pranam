@@ -1,6 +1,6 @@
 import React from 'react'
-import { FaReact, FaHtml5, FaCss3Alt } from "react-icons/fa";
-import { SiJavascript, SiJquery } from "react-icons/si";
+import { FaReact, FaHtml5, FaCss3Alt, FaBootstrap, FaNode } from "react-icons/fa";
+import { SiJavascript, SiJquery, SiMongodb } from "react-icons/si";
 // eslint-disable-next-line
 export default [
       {
