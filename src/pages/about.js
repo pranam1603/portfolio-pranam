@@ -22,13 +22,12 @@ const About = () => {
                         Chegg India as a Calculus Expert where i helped other students in solving their douts. Now I have advanced to CSE Expert.
                     </p>
                     <p>
-                        At present I'm doing my online internship in MyDos Tech. Istanbul, A Turkey based Startup.
-                        where i work with AWS Services and i have taken up responsibility as a Front-End Developer at the initial stage of my internship. So far
-                        it has been a great experience to learn new things and work with great minds.
+                        In past I already worked with two startups named MyDos Technology and Chai Sutta Bar. Where I work in AWS Services and Front-End Developing. I was also a Team Leader in Chai Sutta Bar.
+                        So far it has been a great experience to learn new things and work with great minds.
                     </p>
                     <p>
-                        I am a self learner i have been learning Web Development by myself through online learning plateform and learn new things daily.
-                        I always try to explore new things and learn them.
+                        I am a self learner I have been learning Web Development by myself through online learning plateform and learn new things daily.
+                        I always try to explore new things and learn them. Till now I learnt React, Node, MongoDB and many more.
                     </p>
                     <ul>
                         <li><a href="http://www.linkedin.com/in/pranam-jain" target="_blank" rel="noopener noreferrer" ><FaLinkedin /></a></li>
