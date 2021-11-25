@@ -13,8 +13,19 @@ export default [
         "company": "EDUCATION"
     },
     {
-        "id": "recIL6mJNfWObonls",
+        "id": "rec61x18FEW99hQqp",
         "order": 2,
+        "title": "Software Developer.",
+        "dates": "SEPTEMBER 2021 - Present",
+        "duties": [
+            "I am working as Software Developer Intern at Star Catalysts.",
+            "In this I am working with technology like React.js, React Native, Node.js, JWT, SQL etc. This has been a great learning experience for me."
+        ],
+        "company": "STAR CATALYSTS"
+    },
+    {
+        "id": "recIL6mJNfWObonls",
+        "order": 3,
         "title": "Calculus Expert",
         "dates": "OCTOBER 2020 - FEBUARY 2021",
         "duties": [
@@ -26,7 +37,7 @@ export default [
 
     {
         id: "recAGJfiU4CeaV0HL",
-        order: 3,
+        order: 4,
         title: "Full Stack Web Developer Intern",
         dates: "MARCH 2021 - Present",
         duties: [
@@ -38,7 +49,7 @@ export default [
     },
     {
         "id": "recIL6mJNfWObonls",
-        "order": 4,
+        "order": 5,
         "title": "Web Developer",
         "dates": "June 2021 - July 2021",
         "duties": [
@@ -49,7 +60,7 @@ export default [
     },
     {
         "id": "recIL6mJNfWObonls",
-        "order": 5,
+        "order": 6,
         "title": "Cse Expert",
         "dates": "FEBUARY 2021 - Present",
         "duties": [
